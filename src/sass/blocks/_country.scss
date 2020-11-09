@@ -1,0 +1,36 @@
+.country {
+    min-width: 85px;
+    
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 19px 0 19px 0;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    &__contact {
+        line-height: 21px;
+    }
+        
+    &__flag {
+        margin-bottom: 32px;
+        margin-right: 11px;
+    }
+
+    &__name {
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__phone, &__addr {
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 18px;
+        margin: 0;
+        color: #242424;
+    }
+
+
+}
