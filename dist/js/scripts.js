@@ -1,3 +1,5 @@
+//slider1
+
 $(document).ready(function(){
     $('.slider1__inner').slick({
         dots: true,
@@ -35,4 +37,6 @@ $(document).ready(function(){
         });
     });
 });
+
+//slider2
       
