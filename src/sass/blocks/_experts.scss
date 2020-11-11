@@ -74,6 +74,9 @@
                 a {
                     color: #ffffff;
                     text-decoration: none;
+                    &:hover {
+                        color: $main-color;
+                    }
                 }
             }
         }
