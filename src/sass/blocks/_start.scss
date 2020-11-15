@@ -1,0 +1,36 @@
+.start {
+    min-height: 690px;
+    padding: 80px 0 50px 0;
+    text-align: center;
+    &__icon {
+        background: url(../icons/icon-link.png) center center/cover no-repeat;
+        width: 302px;
+        height: 302px;
+        margin: 0 auto;
+    }
+    &__title {
+        margin-top: 74px;
+        color: #393939;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+    &__btn {
+        margin: 30px auto;
+        width: 241px;
+        height: 60px;
+        box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+        background-color: $main-color;
+        border-radius: 3px;
+        border: none;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 60px;
+        text-transform: uppercase;
+        cursor: pointer;
+        &:hover {
+            box-shadow: 0px 0px 5px $main-color;
+        }
+    }
+}
