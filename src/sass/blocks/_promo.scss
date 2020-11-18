@@ -100,22 +100,6 @@
                 font-weight: 300;
                 line-height: 30px;
             }
-            .header__btn {
-                margin-top: 215px;
-                width: 241px;
-                height: 60px;
-                box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
-                background-color: $main-color;
-                border-radius: 3px;
-                border: none;
-                color: #ffffff;
-                font-size: 16px;
-                font-weight: 400;
-                text-transform: uppercase;
-                &:hover {
-                    box-shadow: 0px 0px 5px #fff;
-                }
-            }
         }
         .img-phone {
             position: absolute;

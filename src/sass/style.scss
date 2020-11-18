@@ -1,7 +1,9 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'libs/font';
 @import 'libs/slick';
+@import 'libs/animate';
 @import 'base/variables';
+
 
 .fade {
     animation-name: fade;
@@ -31,10 +33,14 @@
 
 @import 'blocks/country';
 @import 'blocks/promo';
+@import 'blocks/buttons';
 @import 'blocks/solutions';
 @import 'blocks/experts';
 @import 'blocks/advantages';
 @import 'blocks/options';
 @import 'blocks/start';
 @import 'blocks/footer';
+@import 'blocks/forms';
+@import 'blocks/modal';
+@import 'blocks/pageup';
 @import "base/media";	
