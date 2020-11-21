@@ -26,8 +26,6 @@
     .country__addr, .country__phone {
         font-size: 11px;
     }
-
-
     .slider1 {
         .container {
             header {
@@ -68,8 +66,18 @@
             font-size: 40px;
         }
     }
+    .advantages {
+        &__item {
+            margin-top: 20px;
+        }
+    }
+    .footer {
+        &__wrap {
+            justify-content: space-around;
+        }
+    }
 }
-@media (max-width:  767px) {
+@media (max-width:  768px) {
     .country__contact {
         line-height: 18px;
     }
@@ -105,11 +113,11 @@
                 top: 250px;
                 right: 0;
                 left: 0;
-                .header__btn {
+                .button_header {
                     margin-top: 250px;
                 }
                 .header__subtitle {
-                    margin-left: 50px;
+                    margin-left: 30px;
                 }
             }
             .slick-dots {
@@ -124,6 +132,49 @@
         }
         &__problem, &__solution {
             margin-bottom: 30px;
+        }
+    }
+    .experts {
+        height: 100%;
+        padding-bottom: 50px;
+        .slider, .prev, .next {
+            display: none;
+        }
+        nav {
+            .prengi {
+                height: 100%;
+                &_item {
+                    border-right: none;
+                }
+            }
+        }
+    }
+    .advantages {
+        &__title {
+            margin: 0;
+        }
+    }
+    .options {
+        &__subtitle {
+            font-size: 20px;
+        }
+        &__content {
+            font-size: 15px;
+        }
+    }
+    .footer {
+        &__wrap {
+            margin: 0 100px;
+        }
+        &__content {
+            width: 100%;
+            margin-bottom: 20px;
+        }
+    }
+    .modal {
+        &__close {
+            right: 30px;
+            top: 5px;
         }
     }
 }
@@ -205,9 +256,9 @@
             .header__subtitle {
                 top: 180px;
                 font-size: 20px;
-                margin-left: 0;
+                margin-left: 5px;
             }
-            .header__btn {
+            .button_header {
                 margin-top: 330px;
                 width: 200px;
                 height: 40px;
@@ -226,6 +277,68 @@
     &__problem, &__solution {
         margin-bottom: 30px;
         width: 300px;
+    }
+}
+.options {
+    height: 100%;
+    &__items{
+        flex-wrap: wrap;
+        margin-top: 50px;
+        padding-bottom: 50px;
+    }
+    &__item1 {
+        text-align: left;
+        padding-left: 70px;
+        padding-right: 40px;
+    }
+}
+.experts {
+    &__title {
+        font-size: 25px;
+    }
+    nav {
+        .prengi {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+.advantages {
+    padding-top: 50px;
+    &__title {
+        font-size: 25px;
+        padding-bottom: 100px;
+    }
+    &__subtitle {
+        font-size: 20px;
+    }
+}
+.options {
+    &__title {
+        font-size: 25px;
+    }
+}
+.start {
+    &__title {
+        font-size: 25px;
+    }
+    .button_start {
+        margin-top: 50px;
+        width: 200px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 42px;
+    }
+}
+.footer {
+    &__wrap {
+        margin: 0 30px;
+    }
+}
+.modal {
+    &__close {
+        right: 40px;
+        top: 5px;
     }
 }
 }
