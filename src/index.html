@@ -5,10 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Prengi</title>
+
+    <!-- Favicon  -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
+    <link rel="manifest" href="icons/favicon//manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="country">
+    <section class="country" id="country">
         <div class="container">
             <div class="country__wrapper">
                 <div class="country__item">
@@ -64,10 +84,10 @@
                     <nav>
                         <ul class="menu">
                             <li class="menu_item"><a href="#" class="menu_link">главная</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Модули</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Отрасли</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">О нас</a></li>
-                            <li class="menu_item"><a href="#" class="menu_link">Наши обязательства</a></li>
+                            <li class="menu_item"><a href="#experts" class="menu_link">Модули</a></li>
+                            <li class="menu_item"><a href="#advantages" class="menu_link">Отрасли</a></li>
+                            <li class="menu_item"><a href="#solutions" class="menu_link">О нас</a></li>
+                            <li class="menu_item"><a href="#footer" class="menu_link">Наши обязательства</a></li>
                         </ul>
                         <div class="hamburger">
                             <span></span>
@@ -77,9 +97,9 @@
                     </nav>
                 </header>
                 <div class="header__content">
-                    <div class="header__title">Управляй своим бизнесом через Smartphone</div>
-                    <div class="header__subtitle">PRENGI<span> - Платформа для прозрачного
-                        управления бизнесом</span></div>
+                    <h1 class="header__title">Управляй своим бизнесом через Smartphone</h1>
+                    <h2 class="header__subtitle">PRENGI<span> - Платформа для прозрачного
+                        управления бизнесом</span></h2>
                     <button data-modal="consultation" class="button button_header">Получить доступ</button>
                 </div>
                 <img class="img-phone" src="img/phone.png" alt="">
@@ -103,7 +123,7 @@
               </div>
         </section>
     </section>
-    <section class="solutions">
+    <section class="solutions" id="solutions">
         <div class="container">
             <div class="solutions__problems">
                 <div class="solutions__problem">
@@ -124,7 +144,7 @@
             </div>
             <div class="solutions__middle">
                 <img class="direction" src="img/arrow-big.png" alt="">
-                <div class="solutions__title">С PRENGI</div>
+                <h2 class="solutions__title">С PRENGI</h2>
             </div>
             <div class="solutions__solutions">
                 <div class="solutions__solution">
@@ -145,9 +165,9 @@
             </div>
         </div>
     </section>
-    <section class="experts">
+    <section class="experts" id="experts">
         <div class="container">
-            <div class="experts__title">Prengi предоставляет экспертные решения<br>для Вашей отрасли</div>
+            <h2 class="experts__title">Prengi предоставляет экспертные решения<br>для Вашей отрасли</h2>
             <nav>
                 <div class="prengi" >
                     <div class="prengi_item"><a href="#" class="prengi_link">Prengi Production</a></div>
@@ -175,9 +195,9 @@
             <div class="next"><button class="arrow-right"><img src="img/arrow-right.png" alt=""></button></div>
         </div>
     </section>
-    <section class="advantages">
+    <section class="advantages" id="advantages">
         <div class="container">
-            <div class="advantages__title">Преимущества Prengi для Вашей отрасли</div>
+            <h2 class="advantages__title">Преимущества Prengi для Вашей отрасли</h2>
             <div class="advantages__wrap">
                 <div class="advantages__item advantages__item_1">
                     <div class="advantages__box"><div class="advantages__subtitle">Возможность внедрения и тестирования в реальном времени</div></div>
@@ -202,7 +222,7 @@
     </section>
     <section class="options">
         <div class="container">
-            <div class="options__title">Варианты развертывания Ваших данных</div>
+            <h2 class="options__title">Варианты развертывания Ваших данных</h2>
             <div class="options__items">
                     <div class="options__items options__item1">
                         <div class="options__subtitle">Облачное хранилище</div>
@@ -218,11 +238,11 @@
     <section class="start">
         <div class="container">
             <div class="start__icon"></div>
-            <div class="start__title">Приступить очень просто!<br>Нужно получить доступ и начать работу!</div>
+            <h2 class="start__title">Приступить очень просто!<br>Нужно получить доступ и начать работу!</h2>
             <div data-modal="consultation" class="button button_start">связаться с нами</div>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__wrap">
                 <div class="footer__item">
@@ -261,7 +281,7 @@
                     <div><a href="#" class="footer__link">История</a></div>
                     <div><a href="#" class="footer__link">Наши отношения</a></div>
                     <div><a href="#" class="footer__link">Команда</a></div>
-                    <div><a href="#" class="footer__link">Контакты</a></div>
+                    <div><a href="#country" class="footer__link">Контакты</a></div>
                 </div>
             </div>
             <div class="footer__copyright">© Prengi Ink. 2008-2017 Все права защищены.</div>
